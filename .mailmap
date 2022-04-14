@@ -1,0 +1,3 @@
+# git mailmap (see git-shortlog(1))
+# format: New Name <new@address> Old Name <old@address>
+

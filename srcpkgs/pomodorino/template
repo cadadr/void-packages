@@ -1,0 +1,16 @@
+# Template file for 'pomodorino'
+pkgname=pomodorino
+version=0.2.0a1
+revision=1
+build_style=python3-module
+pycompile_module="pomodorino"
+_commondeps="python3-gobject gobject-introspection"
+hostmakedepends="python3-setuptools pandoc gettext ${_commondeps}"
+depends="gnome-icon-theme python3-notify2 python3-dbus libindicator
+           libappindicator ${_commondeps}"
+short_desc="A lightweight, simple Pomodoro timer system tray app"
+maintainer="Göktuğ Kayaalp <self@gkayaalp.com>"
+license="GPL-3.0-or-later"
+homepage="https://gkayaalp.com/pomodorino.html"
+distfiles="https://github.com/cadadr/${pkgname}/archive/v${version}.tar.gz"
+checksum=fb3ace34b005c1427bf6577ae70606121af1cc8c75bf6b6244b3a71a4d6ed512
