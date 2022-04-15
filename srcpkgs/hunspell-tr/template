@@ -1,0 +1,20 @@
+# Template file for 'hunspell-fr_FR'
+#
+# based on hunspell-fr-fr and Arch Linux's hunspell-tr packages.
+pkgname=hunspell-tr
+version=0.1
+revision=1
+create_wrksrc=yes
+hostmakedepends="unzip"
+short_desc="Türkish dictionary for hunspell"
+maintainer="Göktuğ Kayaalp <self@gkayaalp.com>"
+license="Apache-2.0"
+homepage="https://code.google.com/archive/p/tr-spell/"
+distfiles="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/tr-spell/Hunspell_tr_TR_v.${version}.zip"
+checksum=894d35f3242f47251ef729d4ea091f44364d8c5b0f237c0c5a8ac2b2148f1136
+
+do_install() {
+    vinstall tr.aff 644 /usr/share/hunspell tr_TR.aff
+    vinstall tr.dic 644 /usr/share/hunspell tr_TR.dic
+    vdoc README
+}
