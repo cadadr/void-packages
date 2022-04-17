@@ -37,3 +37,6 @@ almost 600MB down to roughly 5.5MB, i.e. by two orders of magnitude.
 
 - [pomodorino](./srcpkgs/pomodorino): [my simple systray-based
   pomodoro timer](https://gkayaalp.com/pomodorino.html)
+
+- [hunspell-tr](./srcpkgs/hunspell-tr): [Turkish dictionary for
+  hunspell](https://code.google.com/archive/p/tr-spell/)
