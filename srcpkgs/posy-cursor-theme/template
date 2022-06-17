@@ -1,0 +1,19 @@
+# Template file for `posy-cursor-theme'
+pkgname=posy-cursor-theme
+version=3.7.10
+revision=1
+license="Unknown"
+short_desc="Posy's cursor theme, Linux port"
+maintainer="Göktuğ Kayaalp <self at gkayaalp.com>"
+homepage="http://www.michieldb.nl/other/cursors/"
+distfiles="https://github.com/cadadr/posy-cursors/archive/refs/tags/v${version}.tar.gz"
+wrksrc="posy-cursors-${version}"
+checksum="4c9341b74265b65cdac68d0a41515f8b00492add4c2677828626761bfc504af0"
+
+do_install() {
+    mkdir -p "${DESTDIR}/usr/share/icons/"
+
+    cd "${wrksrc}/themes"
+
+    vcopy * usr/share/icons/
+}
