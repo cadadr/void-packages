@@ -40,3 +40,10 @@ almost 600MB down to roughly 5.5MB, i.e. by two orders of magnitude.
 
 - [hunspell-tr](./srcpkgs/hunspell-tr): [Turkish dictionary for
   hunspell](https://code.google.com/archive/p/tr-spell/)
+
+- [mailutils](./srcpkgs/mailutils): [GNU mailutils](https://mailutils.org/)
+
+- [posy-cursor-theme](./srcpkgs/posy-cursor-theme): [Posy's cursors ](http://www.michieldb.nl/other/cursors/),
+  for Void Linux
+
+- [volctl](./srcpkgs/volctl): [My volctl fork](https://github.com/cadadr/volctl/)
