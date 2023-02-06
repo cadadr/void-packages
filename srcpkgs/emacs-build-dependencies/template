@@ -1,0 +1,16 @@
+# Template file for 'emacs-build-dependencies'
+pkgname=emacs-build-dependencies
+version=30
+revision=1
+create_wrksrc=required
+build_style=meta
+depends="ncurses-devel libXaw-devel gtk+3-devel webkit2gtk-devel
+ dbus-devel acl-devel libjpeg-turbo-devel tiff-devel giflib-devel
+ libpng-devel libXpm-devel librsvg-devel libmagick-devel libxml2-devel
+ gnutls-devel alsa-lib-devel m17n-lib-devel jansson-devel harfbuzz-devel
+ cairo-devel gmp-devel libgccjit-devel  desktop-file-utils
+ hicolor-icon-theme"
+short_desc="Build dependencies for Göktuğ's GNU Emacs configuration"
+maintainer="Göktuğ Kayaalp <self@gkayaalp.com>"
+license="Public Domain"
+homepage="https://codeberg.org/cadadr/personal-computing/src/branch/default/emacs.d"
