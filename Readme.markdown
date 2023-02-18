@@ -46,4 +46,11 @@ almost 600MB down to roughly 5.5MB, i.e. by two orders of magnitude.
 - [posy-cursor-theme](./srcpkgs/posy-cursor-theme): [Posy's cursors ](http://www.michieldb.nl/other/cursors/),
   for Void Linux
 
-- [volctl](./srcpkgs/volctl): [My volctl fork](https://github.com/cadadr/volctl/)
+- [volctl](./srcpkgs/volctl): up-to-date version of volctl
+
+- [emacs-build-dependencies](./srcpkgs/emacs-build-dependencies):
+  packages required to build upstream emacs from git for my
+  configuration
+
+- [hunspell-en\_GB-ise](./srcpgks/hunspell-en_GB-ise): British English
+  hunspell dictionary, -ise variant (which i prefer)
